@@ -1,0 +1,14 @@
+WEEK 9 C COMPILATION AND RUN TESTS\n==========================================\n\nabstract_structs.c: PASS\nOutput:\nArea of Square: 25.00
+Area of Circle: 28.27
+\ninheritance.c: PASS\nOutput:\nCircle Color (Inherited): Red
+Circle Radius (Specific): 5.00
+\npolymorphic_drawing.c: PASS\nOutput:\n--- Rendering Canvas ---
+Drawing a Circle (O)
+Drawing a Rectangle []
+Drawing a Triangle /\
+Drawing a Circle (O)
+\nvirtual_functions.c: PASS\nOutput:\n--- Simulating Non-Virtual (Base only) ---
+Animal makes a generic sound.
+
+--- Simulating Virtual (Dynamic binding) ---
+Dog barks: Woof! Woof!

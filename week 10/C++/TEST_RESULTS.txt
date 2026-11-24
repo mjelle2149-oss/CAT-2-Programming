@@ -1,0 +1,44 @@
+=== file_io_basics.cpp ===
+Compile exit code: 0
+Run exit code: 0
+Output:
+Reading numbers from file...
+Read: 10
+Read: 25
+Read: 5
+Read: 40
+Read: 12
+Total Sum: 92
+Result successfully saved to sum.txt!
+
+=== unhandled_error.cpp ===
+Compile exit code: 0
+Run exit code: 0
+Output:
+Attempting to read from missing file...
+Data read: 
+Program continued running without crashing.
+
+=== return_vs_exception.cpp ===
+Compile exit code: 0
+Run exit code: 0
+Output:
+--- Testing Return Code Strategy ---
+Return Code: Handled error gracefully. Program continues.
+
+--- Testing Exception Strategy ---
+Exception Caught: File not found: data.txt
+Exception Strategy: Forced us to handle the error!
+
+=== robust_csv.cpp ===
+Compile exit code: 0
+Run exit code: 0
+Output:
+--- Processing Student Records ---
+Alice -> Average: 87.6667
+Bob -> Average: 75
+WARNING: Skipping malformed record for Charlie (Invalid score data).
+Diana -> Average: 95
+
+--- Processing Complete ---
+

@@ -1,0 +1,70 @@
+WEEK 7 C++ TEST RESULTS
+=======================
+
+pointer_arithmetic.cpp: COMPILE=PASS, RUN=PASS
+Compiler diagnostics: None
+Program output:
+Array elements accessed via pointer arithmetic:
+Value: 10
+Value: 20
+Value: 30
+Value: 40
+Value: 50
+
+Accessing using offset arithmetic:
+Index 0 has value: 10
+Index 1 has value: 20
+Index 2 has value: 30
+Index 3 has value: 40
+Index 4 has value: 50
+
+pointers_vs_references.cpp: COMPILE=PASS, RUN=PASS
+Compiler diagnostics: None
+Program output:
+--- Initial State ---
+originalValue: 100
+refValue:      100
+ptrValue points to: 100
+
+--- After setting refValue = 200 ---
+originalValue: 200
+ptrValue points to: 200
+
+--- After setting *ptrValue = 300 ---
+originalValue: 300
+refValue:      300
+
+--- After pointing ptrValue to anotherValue ---
+originalValue: 300
+ptrValue points to: 500
+
+memory_leak_demo.cpp: COMPILE=PASS, RUN=PASS
+Compiler diagnostics: None
+Program output:
+Calling function that leaks memory...
+Inside function. The value is: 42
+Memory allocated at address: 0x7fec00222000
+Function finished. The memory is now leaked.
+
+memory_leak_fixed.cpp: COMPILE=PASS, RUN=PASS
+Compiler diagnostics: None
+Program output:
+--- Testing the Fix ---
+Inside fixed function. Value: 42
+Memory allocated at address: 0x7f3336e22000
+Memory has been successfully freed.
+
+dynamic_array.cpp: COMPILE=PASS, RUN=PASS
+Compiler diagnostics: None
+Program output:
+Created dynamic array with capacity 2.
+Array (Size: 2, Capacity: 2): 10 20 
+
+Adding third element...
+[Resized capacity from 2 to 4]
+Array (Size: 3, Capacity: 4): 10 20 30 
+
+Adding fourth and fifth elements...
+[Resized capacity from 4 to 8]
+Array (Size: 5, Capacity: 8): 10 20 30 40 50 
+

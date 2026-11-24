@@ -1,0 +1,25 @@
+WEEK 9 C++ COMPILATION AND RUN TESTS\n==========================================\n\nabstract_classes.cpp: PASS\nOutput:\nArea of Square: 25
+Area of Circle: 28.2743
+\ninheritance.cpp: PASS\nOutput:\n--- Creating a Circle ---
+Shape constructor called.
+Circle constructor called.
+This shape's color is: Red
+This circle is Red and has a radius of 5
+
+--- Creating a Rectangle ---
+Shape constructor called.
+Rectangle constructor called.
+This shape's color is: Blue
+This rectangle is Blue and is 4x6
+\npolymorphic_drawing.cpp: PASS\nOutput:\n--- Rendering Canvas ---
+Drawing a Circle (O)
+Drawing a Rectangle []
+Drawing a Triangle /\\
+Drawing a Circle (O)
+
+--- Cleaning Up Memory ---
+\nvirtual_functions.cpp: PASS\nOutput:\n--- Without Virtual Keyword ---
+Animal makes a generic sound.
+
+--- With Virtual Keyword ---
+Dog barks: Woof! Woof!

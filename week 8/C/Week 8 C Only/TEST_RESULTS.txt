@@ -1,0 +1,37 @@
+WEEK 8 C COMPILATION AND EXECUTION RESULTS\nCompiler: GCC, C11, flags: -Wall -Wextra -Wpedantic\n\nencapsulation.c: COMPILE PASS; RUN PASS\nProgram output:\nStudent Name: Alice
+Student Age: 20
+
+Attempting to change age to -5...
+Error: Invalid age! Age must be between 1 and 119.
+Age after invalid attempt: 0
+\nstack_vs_heap.c: COMPILE PASS; RUN PASS\nProgram output:\n--- Creating Stack Object ---
+Car created: Toyota
+
+--- Creating Heap Object ---
+Car created: Honda
+Heap car model: Honda
+
+--- End of main function ---
+Car destroyed: Honda
+\nevaluate_design.c: COMPILE PASS; RUN PASS\nProgram output:\n--- Testing BAD Design ---
+Bad Account Balance: -5000.00
+
+--- Testing GOOD Design ---
+Good Account Balance: 600.00
+\nbank_account.c: COMPILE PASS; RUN PASS\nProgram output:\n--- Opening Account ---
+Account Holder: Alice Smith
+Current Balance: $500.00
+
+--- Attempting Deposits ---
+Successfully deposited: $200.00
+Error: Deposit amount must be greater than 0.
+
+--- Attempting Withdrawals ---
+Successfully withdrew: $100.00
+Error: Insufficient funds! Current balance is $600.00
+Error: Withdrawal amount must be greater than 0.
+
+--- Final Account Status ---
+Account Holder: Alice Smith
+Current Balance: $600.00
+\n
