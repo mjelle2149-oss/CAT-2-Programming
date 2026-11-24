@@ -1,0 +1,25 @@
+WEEK 6 C++ TEST RESULTS
+=======================
+
+Compiler: g++ (C++17)
+Compiler flags: -std=c++17 -Wall -Wextra -pedantic
+
+Compilation:
+- linear_search.cpp: SUCCESS, no warnings
+- row_major.cpp: SUCCESS, no warnings
+- cstring_version.cpp: SUCCESS, no warnings
+- stdstring_version.cpp: SUCCESS, no warnings
+- score_analyzer.cpp: SUCCESS, no warnings
+
+Execution using representative sample inputs:
+1. linear_search: input 89 -> "Element found at index: 3"
+2. row_major: printed matrix row by row, displayed sequential memory
+   addresses, and demonstrated column-major traversal.
+3. cstring_version: input "John Doe" -> length 8, first character J,
+   copied name "John Doe".
+4. stdstring_version: input "John Doe" -> length 8, first character J,
+   copied name "John Doe", greeting "Hello, John Doe!".
+5. score_analyzer: inputs 85, 92, 78, 65, 90, 88, 72, 95, 81, 70
+   -> average 81.60; above-average scores 85, 92, 90, 88, 95.
+
+All five programs exited with status code 0.

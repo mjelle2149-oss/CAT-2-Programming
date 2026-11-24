@@ -1,0 +1,58 @@
+=== swap_by_value.c: PASS ===
+Before calling swapByValue:
+ x = 10, y = 20
+Inside function - After swap: a = 20, b = 10
+After calling swapByValue:
+ x = 10, y = 20
+
+Explanation: The function received COPIES of x and y.
+Changes made inside the function do not affect the originals.
+
+Fixing the swap using pointers:
+After calling swapByPointer: x = 20, y = 10
+
+
+=== variable_scope.c: PASS ===
+In main: globalCounter = 100
+In main: localCounter = 50
+Inside displayGlobal: globalCounter = 100
+Inside modifyGlobal: globalCounter changed to 500
+Inside localDemo: globalCounter = 999
+Back in main: globalCounter = 500
+
+
+=== recursion_factorial.c: PASS ===
+Enter a number to calculate factorial (0-20): 
+Using simple recursion:
+ 5! = 120
+
+Using tail recursion:
+ 5! = 120
+
+--- Comparison ---
+Simple recursion: Clear, matches the mathematical definition.
+Tail recursion: Uses an accumulator and may benefit from compiler optimisation.
+
+
+=== geometry_library.c: PASS ===
+
+===== GEOMETRY CALCULATOR =====
+1. Area of Circle
+2. Area of Rectangle
+3. Area of Triangle
+4. Exit
+Enter your choice: Enter radius: Area of circle: 78.54
+
+===== GEOMETRY CALCULATOR =====
+1. Area of Circle
+2. Area of Rectangle
+3. Area of Triangle
+4. Exit
+Enter your choice: Enter length: Enter width: Area of rectangle: 24.00
+
+===== GEOMETRY CALCULATOR =====
+1. Area of Circle
+2. Area of Rectangle
+3. Area of Triangle
+4. Exit
+Enter your choice: Enter
